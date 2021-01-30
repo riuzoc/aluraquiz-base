@@ -1,12 +1,13 @@
-import styled from 'styled-components'
-import db from '../db.json'
+import React from 'react';
+import styled from 'styled-components';
+import db from '../db.json';
 import Widget from '../src/components/Widget';
 
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
-`
-//função com Maiúscula tornase uma tag react.
+`;
+// função com Maiúscula tornase uma tag react.
 // function Title(props) { //propcidades/propriedades <3
 //   return (
 //     <h1>{props.children}</h1>
@@ -42,7 +43,7 @@ export default function Quiz() {
               <h1>The legend of zelda</h1>
             </Widget.Header>
 
-            <Widget.Content>               
+            <Widget.Content>
               <p>teste</p>
             </Widget.Content>
           </Widget>
