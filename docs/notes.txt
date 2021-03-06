@@ -1,0 +1,82 @@
+25 Fev 2021
+IMERSÃO REACT NEXT.JS - Alura.
+--------------
+https://github.com/vercel/next.js/tree/canary/examples/with-styled-components
+  npx create-next-app --example with-styled-components
+    yarn
+    yarn dev
+--------------
+https://material-ui.com/pt/getting-started/installation/
+--------------
+git
+git add .
+git commit -m "# Aula 1"
+git remote add origin https://github.com/riuzoc/aluraquiz-base.git
+git push -u origin main   --- ou master.
+--------------
+google fonts
+https://fonts.google.com/specimen/Lato
+--
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+--
+https://nextjs.org/docs/api-reference/next/head
+--------------
+regerar pasta modules -> yarn install
+--------------
+https://eslint.org/docs/user-guide/getting-started
+yarn add eslint --dev
+adicionado aos scripts em package.json
+	"eslint:init": "eslint --init"
+apagar o package-lock.json e rodar -> yarn install
+instalar extensao do eslint para vsCode -> Dirk Baeumer
+ctrl+shift+p  -> eslint fix all autofixable-problems
+
+https://nextjs.org/docs/api-reference/next/head
+https://metatags.io/
+--------------
+--
+https://developer.mozilla.org/pt-BR/docs/Web/API/History
+--
+git add .
+git commit -m "# Aula 1"
+git push -u origin main   --- ou master.
+--
+Teste no Console
+'https://aluraquiz-devsoutinho.omariosouto.vercel.app/'.replace('https://', '').replace('.vercel.app/', '');
+regex -> 'https://aluraquiz-devsoutinho.omariosouto.vercel.app/'.replace(/\//g, '');
+'https://aluraquiz-devsoutinho.omariosouto.vercel.app/'
+.replace(/\//g, '')
+.replace('https:', '')
+.replace('.vercel.app', '')
+.split('.');
+--
+----
+https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering
+http://localhost:3000/quiz/paramDinamico?nome=teste&param=maisUmParamquery
+context.query
+----
+https://httpstatusdogs.com/
+
+fetch('https://aluraquiz-css.omariosouto.vercel.app/api/db')
+.then((response) => {
+    console.log(response)
+    if(response.ok) {
+        return response.json()
+    }
+    
+    throw new Error('Falha ao receber dados.')
+})
+.then((respostaConvertidaEmObjeto) => {
+    console.log(respostaConvertidaEmObjeto);
+})
+.catch((err) => {
+    console.error(err)
+})
+----
+
+
+
+
+	
+
