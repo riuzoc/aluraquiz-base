@@ -10,6 +10,7 @@ import QuizLogo from '../../src/components/QuizLogo';
 import Widget from '../../src/components/Widget';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
@@ -85,6 +86,7 @@ function QuestionWidget({
   return (
       <Widget>
         <Widget.Header>
+          <BackLinkArrow href="/" />
           <h3>
             {`Pergunta ${questionIndex + 1} de ${totalQuestions} `} 
           </h3>
@@ -114,7 +116,7 @@ function QuestionWidget({
                 onSubmit();
                 setQuestionSubmited(false);
                 setSelectedAlternative(undefined);
-              }, 1 * 1000);
+              }, 0.5 * 1000);
             }}
           >
             {question.alternatives.map((alternative, alternativeIndex) => {
@@ -195,7 +197,7 @@ export default function QuizPage() {
     setTimeout(() => {
         setScreenState(screenStates.QUIZ);
         // console.log('State QUIZ');
-    }, 1 * 1000);
+    }, 0,1 * 1000);
     // nasce === didMount
   }, []);
 

@@ -1,32 +1,58 @@
 {  
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+  "bg": "https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2020/06/30191943/SITE1.jpg?resize=1536%2C1208&ssl=1",
   "bg2": "https://articles.gamerheadquarters.com/images/top10/movies/10.jpg?resize=1536%2C1208&ssl=1", 
   "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "description": "Teste os seus conhecimentos sobre o Palmeiras",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "http://www.gifs-animados.net/futebol/palmeiras-12.gif",
+      "title": "Quem foi campeão da Libertadores em 2020",
+      "description": "Essa é pra aquecer.",
+      "answer": 1,
       "alternatives": [
-        ". elemento",
-        "* elemento",
-        "# elemento",
-        "% elemento"
+        "Santos",
+        "Palmeiras",
+        "Boca Juniors",
+        "River Plate"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "http://www.gifs-animados.net/futebol/palmeiras-12.gif",
+      "title": "Quantas partidas o Palmeiras perdeu na Libertadores 2020?",
+      "description": "Foi bem, hehe.",
+      "answer": 0,
+      "alternatives": [          
+          "Uma partida",
+          "Duas partidas",
+          "Três partidas",
+          "Nenhuma partida"
+      ]
+    },
+    {
+      "image": "http://www.gifs-animados.net/futebol/palmeiras-12.gif",
+      "title": "Qual foi o melhor jogador da Libertadores 2020?",
+      "description": "...",
+      "answer": 2,
+      "alternatives": [
+          "Rony",
+          "Soteldo",
+          "Marinho",
+          "Weverton"
+      ]
+    },
+    {
+      "image": "http://www.gifs-animados.net/futebol/palmeiras-12.gif",
+      "title": "Qual foi o artilheiro da Libertadores 2020?",
+      "description": "...",
       "answer": 0,
       "alternatives": [
-          "background: linear-gradient(#e66465, #9198e5);",
-          "background: gradient(#e66465, #9198e5);"
+          "Martínezque",
+          "Marinho",
+          "Borré",
+          "Rony"
       ]
     }
-  ],
+  ],  
   "external": [
     "https://aluraquiz-css.omariosouto.vercel.app/",
     "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"

@@ -1,5 +1,8 @@
 25 Fev 2021
 IMERSÃO REACT NEXT.JS - Alura.
+---------------------------------------
+nvm ls
+nvm use v12.0.0
 --------------
 https://github.com/vercel/next.js/tree/canary/examples/with-styled-components
   npx create-next-app --example with-styled-components
@@ -73,10 +76,14 @@ fetch('https://aluraquiz-css.omariosouto.vercel.app/api/db')
 .catch((err) => {
     console.error(err)
 })
-----
-
-
-
-
-	
-
+-------
+https://www.framer.com/api/motion/
+yarn add framer-moti on
+https://greensock.com/gsap/
+-------
+--
+-------
+https://lottiefiles.com/
+https://www.youtube.com/watch?v=dZH9aDX8T-0
+-------
+--
